@@ -17,7 +17,7 @@ CLI="./kisql --host localhost --user admin"
 
 # create schema and tune RAM tier
 $CLI --sql "CREATE SCHEMA IF NOT EXISTS coffeeshop;"
-$CLI --sql "ALTER TIER ram WITH OPTIONS ('capacity' = '32000000000');"
+$CLI --sql "ALTER TIER ram WITH OPTIONS ('capacity' = '128000000000');"
 
 # create data source
 $CLI --sql "CREATE or replace DATA SOURCE coffee_bench_ds LOCATION = 'S3' WITH OPTIONS (BUCKET NAME = 'doris-regression', REGION = 'us-east-1');"
