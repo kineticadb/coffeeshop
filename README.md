@@ -2,9 +2,9 @@
 
 ## Setup and benchmark
 
-1. Deploy a c6a.4xlarge with 500 GB gp2 disk; `benchmark.sh` assumes that you are deploying an Ubuntu OS variant and runs the `setup-dev-ubuntu.sh` script. If you deploy any other OS, then you will need to install docker, java, and ripgrep separately.
+Deploy a c6a.4xlarge with 500 GB gp2 disk; `benchmark.sh` assumes that you are deploying an Ubuntu OS variant and runs the `setup-dev-ubuntu.sh` script. If you deploy any other OS, then you will need to install docker, java, and ripgrep separately.
 
-2. Once you have the VM up and running, you can run the `benchmark.sh` script for a one-click install and run; it will:
+Once you have the VM up and running, you can run the `benchmark.sh` script for a one-click install and run; it will:
 
 -- download and install the `Kinetica` developer edition and its sql-client `kisql`
 
