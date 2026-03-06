@@ -2,7 +2,15 @@
 
 ## Setup and benchmark
 
-Deploy a c6a.4xlarge with 500 GB gp2 disk; `benchmark.sh` assumes that you are deploying an Ubuntu OS variant and runs the `setup-dev-ubuntu.sh` script. If you deploy any other OS, then you will need to install docker, java, and ripgrep separately.
+On any ubuntu VM or container with 500 GB of available storage run:
+
+```bash
+./benchmark.sh
+```
+
+## What the script does
+
+`benchmark.sh` assumes that you are deploying an Ubuntu OS variant and runs the `setup-dev-ubuntu.sh` script. If you deploy any other OS, then you will need to install docker, java, and ripgrep separately.
 
 Once you have the VM up and running, you can run the `benchmark.sh` script for a one-click install and run; it will:
 
@@ -16,9 +24,7 @@ Once you have the VM up and running, you can run the `benchmark.sh` script for a
 
 All the queries will be executed on behalf of the user `admin` with the password `admin`.
 
-```bash
-./benchmark.sh
-```
+
 
 ## Notes - out of the box, you will see output like so
 
