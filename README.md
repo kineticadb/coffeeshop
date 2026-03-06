@@ -13,14 +13,23 @@
 All the queries will be executed on behalf of the user `admin` with the password `admin`.
 
 ## Notes - out of the box, you will see output like so
+
 Digest: sha256:6efe2c092552776fb87f24a8b41506ef427e0e8dce72889540f071b364f416e6
+
 Status: Downloaded newer image for kinetica/kinetica-cpu:7.2.3.8.20260214171705.ga
+
 b92f09b249308bd8ec120bdb8f9a0a984a525a2c94deec57e03a630b171b5a48
+
 Alter password : Using environment variable KINETICA_ADMIN_PASSWORD
+
 Success : Password for user admin has been updated and Kinetica is stopped.
+
 Install : Ok
+
 Starting : Ok
+
 Start : Ok
+
 template parsing error: template: :1:19: executing "" at <.NetworkSettings.IPAddress>: map has no entry for key "IPAddress"
 Version : 7.2.3.8.20260214171705.ga
 Image : kinetica/kinetica-cpu:7.2.3.8.20260214171705.ga
