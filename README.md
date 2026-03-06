@@ -16,6 +16,10 @@
 
 All the queries will be executed on behalf of the user `admin` with the password `admin`.
 
+```bash
+./benchmark.sh
+```
+
 ## Notes - out of the box, you will see output like so
 
 Digest: sha256:6efe2c092552776fb87f24a8b41506ef427e0e8dce72889540f071b364f416e6
